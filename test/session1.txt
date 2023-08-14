@@ -1,0 +1,31 @@
+mkdir monakhaled
+cd monakhaled
+
+mkdir documents
+cd documents
+touch file1.txt file2.txt file3.txt
+
+cd..
+touch .hidden_file
+ls -a
+
+nano documents/file1.txt
+hello mona
+
+cat documents file1.txt
+
+cd documents
+
+mkdir "-"
+cd "-"
+
+cp-r documents My_documents
+
+cat .hidden_file
+
+mv documents/file2.txt documents/file3.txt.monakhaled
+
+cd ..
+rm -rmonakhaled
+
+
