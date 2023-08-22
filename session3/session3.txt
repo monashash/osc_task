@@ -10,11 +10,11 @@ mkdir permission_practice
  touch private_file.txt 
  chmod 600 private_file.txt private_file.txt 
  touch executable_script.sh 
- chmod 750 executable_script.sh 
+ chmod 75 executable_script.sh 
  sudo chown ubuntu private_file.txt 
  sudo chgrp osc_group private_file.txt 
  sleep 100 & 
- kill -s KILL 6374 
+ kill 4055
  vim 
  killall vim 
  jobs 
