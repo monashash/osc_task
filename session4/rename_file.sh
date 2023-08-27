@@ -1,6 +1,5 @@
 
-step 3
-nano rename_files.sh
+
 ( #!/bin/bash
 extention=$1
 new_name=$2
