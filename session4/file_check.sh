@@ -12,6 +12,6 @@ else
 echo " file does not exist"
 
 )
-./file_check.sh file2 /home/osc/Desktop
+./file_check.sh file2 /home/ubuntu/Desktop
 
 
