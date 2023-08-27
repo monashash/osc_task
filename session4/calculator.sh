@@ -1,6 +1,4 @@
 
-step 4 
-nano calculator.sh
 (  #!/bin/bash
 while  true; do
   echo "1, addition"
