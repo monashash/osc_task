@@ -1,5 +1,4 @@
-
-
+nano rename_file.sh
 ( #!/bin/bash
 extention=$1
 new_name=$2
